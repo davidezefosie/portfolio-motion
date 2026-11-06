@@ -40,15 +40,18 @@ export const Hero = () => {
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            PedroTech
+            David Ezefosie
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
-            Creative Developer & Designer
+            Front End Developer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-            I craft beautiful digital experiences that combine stunning design
-            with powerful functionality. Specializing in modern web applications
-            and interactive user interfaces.
+            I'm a passionate Front-End Developer with a love for building
+            beautiful, responsive, and user-friendly web applications. I work
+            with HTML, CSS, JavaScript, React, and Tailwind CSS to turn ideas
+            into functional digital experiences. I'm always eager to learn,
+            improve my skills, explore new technologies, and build solutions
+            that make a meaningful impact.
           </motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
@@ -60,7 +63,7 @@ export const Hero = () => {
               View My Work
             </motion.a>
             <motion.a
-              href="#contacts"
+              href="#contact"
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -69,15 +72,18 @@ export const Hero = () => {
             </motion.a>
           </motion.div>
           <motion.div className="social-links" variants={staggerContainer}>
-            <motion.a href="https://github.com" target="_blank">
+            <motion.a href="https://github.com/davidezefosie" target="_blank">
               <i className="fab fa-github"> </i>
             </motion.a>
-            <motion.a href="https://linkedin.com" target="_blank">
+            <motion.a
+              href="https://www.linkedin.com/in/david-ezefosie-2076b1438"
+              target="_blank"
+            >
               <i className="fab fa-linkedin"> </i>
             </motion.a>
-            <motion.a href="https://twitter.com" target="_blank">
+            {/* <motion.a href="https://twitter.com" target="_blank">
               <i className="fab fa-twitter"> </i>
-            </motion.a>
+            </motion.a> */}
           </motion.div>
         </motion.div>
         <motion.div
@@ -101,21 +107,21 @@ export const Hero = () => {
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "PedroTech",
-  origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  codename: "davidezefosie",
+  origin: "🌍 In the bathroom or while resting",
+  role: "Front End Developer",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["JavaScript", "TypeScript"],
+    frameworks: ["React", "Next.js", "TailwindCSS", "Chakra UI"],
   },
   traits: [
-    "pixel-perfectionist",
-    "API whisperer",
-    "dark mode advocate",
-    "terminal aesthetic enthusiast",
+    "UI perfectionist",
+    "React enthusiast",
+    "API explorer",
+    "responsive design advocate",
   ],
   missionStatement:
-    "Turning ideas into interfaces and bugs into feature",
+   "Turning ideas into beautiful, responsive, & functional interfaces",
   availability: "Available for hire",
 };`}
             </SyntaxHighlighter>
