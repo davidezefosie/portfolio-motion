@@ -291,6 +291,27 @@ body {
 /* Hero Media Queries */
 
 @media (max-width: 600px) {
+
+  .logo {
+    font-size: 1.2rem;
+  }
+.nav-links {
+    display: flex;
+    gap: 0.4rem;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+
+  .hero-content {
+    justify-items: start;
+  }
+
+  .hero-badge {
+    display: flex;
+  }
+
   .glitch {
     font-size: 2.6rem;
   }
@@ -301,6 +322,7 @@ body {
 
   .hero-description {
     font-size: 1rem;
+    text-align: left;
   }
 
   .cta-primary,
